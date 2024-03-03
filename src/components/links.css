@@ -1,0 +1,27 @@
+.mask1{
+  --linkedin: url("../assets/linkedin.svg");
+  -webkit-mask-image: var(--linkedin);
+  mask-image: var(--linkedin);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.mask2{
+  --git: url("../assets/github.svg");
+  -webkit-mask-image: var(--git);
+  mask-image: var(--git);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.mask3{
+  --wpp: url("../assets/whatsapp.svg");
+  -webkit-mask-image: var(--wpp);
+  mask-image: var(--wpp);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
