@@ -2,7 +2,7 @@ import eu from "../assets/cabecudo.webp";
 import DotsBr from '../assets/dot1.svg';
 import DotsAz from '../assets/dot2.svg';
 
-export function Apresentacao (){
+export function Projetos (){
   return (
     <section className='max-w-7xl mx-auto h-svh lg:h-[80vh]'>
       <div className='flex flex-col items-center justify-center text-center lg:text-left 2xl:text-left lg:flex-row lg:justify-evenly '>
@@ -13,7 +13,7 @@ export function Apresentacao (){
 
           <div className="flex flex-col gap-4">
             <p className=' text-cinzaP text-3xl font-light text-shadow shadow-zinc-500/50 brightness-125'>
-              Olá, tudo bem?
+              Projetos
             </p>
             
             <h1 className='text-6xl max-w-lg font-bold text-shadow shadow-zinc-500/20 bg-gradient-to-l from-azul to-rosa bg-clip-text text-transparent drop-shadow-md'>Seja bem vindo ao meu Portfólio!</h1>
