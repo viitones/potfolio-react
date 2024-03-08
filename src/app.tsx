@@ -9,7 +9,7 @@ export function App() {
     <>
       <Header />
 
-      <main className='mt-44'>
+      <main className='mt-8 sm:mt-16 lg:mt-44 2xl:mt-44'>
         <Apresentacao />
       </main>
 
