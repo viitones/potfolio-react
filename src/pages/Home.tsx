@@ -29,12 +29,12 @@ export function Home (){
           </div>
 
           <div className='max-w-lg lg:ml-12'>
-            <div className='relative bg-gradient-to-tl from-azul to-rosa size-[26rem] lg:size-[28rem] 2xl:size-[36rem] rounded-[70px] '>
-              <img className='absolute bottom-5 -translate-x-6 scale-105 pointer-events-none' src={eu} alt="Victor Hugo" />
-              <img className='absolute -right-12 2xl:-right-16 top-12 size-36 2xl:size-44' src={DotsBr} alt="" />
-              <img className='absolute -right-24 2xl:-right-28 top-24 size-36 2xl:size-44' src={DotsAz} alt="" />
-              <img className='absolute -left-12 2xl:-left-16 bottom-12 size-36 2xl:size-44' src={DotsBr} alt="" />
-              <img className='absolute -left-24 2xl:-left-28 bottom-24 size-36 2xl:size-44' src={DotsAz} alt="" />
+            <div className='relative bg-gradient-to-tl from-azul to-rosa size-[20rem] lg:size-[28rem] 2xl:size-[36rem] rounded-[70px] '>
+              <img className='absolute bottom-3 sm:bottom-5 -translate-x-2 sm:-translate-x-6 scale-105 pointer-events-none' src={eu} alt="Victor Hugo" />
+              <img className='absolute -right-8 sm:-right-12 2xl:-right-16 top-12 size-28 sm:size-36 2xl:size-44' src={DotsBr} alt="" />
+              <img className='absolute -right-20 sm:-right-24 2xl:-right-28 top-24 size-28 sm:size-36 2xl:size-44' src={DotsAz} alt="" />
+              <img className='absolute -left-8 sm:-left-12 2xl:-left-16 bottom-12 size-28 sm:size-36 2xl:size-44' src={DotsBr} alt="" />
+              <img className='absolute -left-20 sm:-left-24 2xl:-left-28 bottom-24 size-28 sm:size-36 2xl:size-44' src={DotsAz} alt="" />
             </div>
           </div>
         </div>
