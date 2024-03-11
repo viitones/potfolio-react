@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
+import { Footer } from "../components/Footer";
+
 import eu from "../assets/cabecudo.webp";
 import DotsBr from '../assets/dot1.svg';
 import DotsAz from '../assets/dot2.svg';
-
-import { Footer } from "../components/Footer";
 
 export function Home (){
   return (
@@ -23,8 +25,8 @@ export function Home (){
             </div>
             
             <div className='flex gap-7'>
-              <a href="#" className='w-36 px-4 text-center bg-azul border border-azul hover:bg-azulHover transition-all py-4 text-branco font-bold rounded-lg'>Sobre</a>
-              <a href="#" className='w-36 px-4 text-center bg-branco border border-black hover:bg-black transition-all py-4 text-black hover:text-branco font-bold rounded-lg'>Projetos</a>
+              <Link to="/formacao" className='w-36 px-4 text-center bg-azul border border-azul hover:bg-azulHover transition-all py-4 text-branco font-bold rounded-lg'>Sobre</Link>
+              <Link to="/projetos" className='botao w-36 px-4 text-center bg-branco border border-zinc-950 hover:bg-zinc-950 transition-all py-4 text-black hover:text-branco font-bold rounded-lg'>Projetos</Link>
             </div>
           </div>
 

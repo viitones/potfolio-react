@@ -5,7 +5,7 @@ export function BotaoSubir(){
     const [isVisible, setVisible] = useState(false);
 
     const toggleVisibility = ()=>{
-        if(window.scrollY > 300){
+        if(window.scrollY > 90){
             setVisible(true)
         }else{
             setVisible(false)
