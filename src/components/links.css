@@ -1,3 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: .4rem;
+}
+::-webkit-scrollbar-thumb{
+  background: -webkit-linear-gradient(150deg, #1e30f3 0%, #e21e80 100%);
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-track{
+  /* background: -webkit-linear-gradient(150deg, #1e30f3 0%, #e21e80 100%); */
+  margin-block: 5px;
+}
+
 .mask1{
   --linkedin: url("../assets/linkedin.svg");
   -webkit-mask-image: var(--linkedin);
@@ -24,4 +39,38 @@
   mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   mask-size: cover;
+}
+
+.bg{
+  background-image: url('../assets/clinica.png')
+}
+
+.vidro{
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+}
+.vidro:hover{
+  filter: brightness(1.1);
+}
+
+.navegaLink{
+  position: relative;
+  transition: 0.5s;
+}
+.navegaLink::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #44403c;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+}
+.navegaLink:hover::before{
+  transform: scaleX(1);
 }
