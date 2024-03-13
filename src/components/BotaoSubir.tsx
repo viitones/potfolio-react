@@ -20,7 +20,7 @@ export function BotaoSubir(){
     }
 
     return(
-        <div className={`${isVisible ? "!opacity-1" : "opacity-0"} transition-all cursor-pointer flex justify-center items-center hover:brightness-90 fixed bottom-[15%] right-[10%] z-50 bg-gradient-to-l from-rosa to-azul rounded-full text-shadow shadow-zinc-500/20 shadow-[3px_3px_6px_2px_#383b3f34]`}>
+        <div className={`${isVisible ? "!opacity-1" : "opacity-0"} transition-all cursor-pointer flex justify-center items-center hover:brightness-90 fixed bottom-[15%] right-[10%] z-50 bg-gradient-to-l from-rosa to-azul rounded-full text-shadow shadow-zinc-500/20 shadow-[3px_3px_6px_2px_#383b3f34] dark:shadow-neutral-900/10`}>
             <p onClick={scroolToTop}>
                 <CaretUp className="text-white size-9" />
             </p>

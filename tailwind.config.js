@@ -3,6 +3,7 @@ const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -28,6 +29,18 @@ export default {
         DEFAULT: '3px 3px 6px var(--tw-shadow-color)',
         lg: '0 8px 16px var(--tw-shadow-color)',
       },
+      animation: {
+        moon: 'spiner .7s cubic-bezier(.87,-0.55,0,1.88)',
+        sun: 'spinerSun .7s cubic-bezier(.87,-0.55,0,1.88)'
+      },
+      keyframes: {
+        spiner: {
+          'from': { transform: 'rotate(80deg)', width: '25px', height: '25px' },
+        },
+        spinerSun: {
+          'from': { transform: 'rotate(-80deg)', width: '25px', height: '25px' },
+        },
+      }
     },
   },
   plugins: [
