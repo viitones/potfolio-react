@@ -32,8 +32,8 @@ export function Home (){
           </div>
 
           <div className='max-w-lg lg:ml-12'>
-            <div className='relative bg-gradient-to-tl from-azul to-rosa size-[13rem] sm:size-[20rem] lg:size-[28rem] 2xl:size-[36rem] rounded-[40px] sm:rounded-[70px] '>
-              <img className='absolute bottom-[-8px] sm:bottom-[10px] lg:bottom-[16px] 2xl:bottom-[20px] -translate-x-2 sm:-translate-x-4 scale-95 sm:scale-105 pointer-events-none' src={eu} alt="Victor Hugo" />
+            <div className='relative bg-gradient-to-tl from-azul to-rosa size-[15rem] sm:size-[20rem] lg:size-[28rem] 2xl:size-[36rem] rounded-[40px] sm:rounded-[70px] '>
+              <img className='absolute bottom-[8px] sm:bottom-[10px] lg:bottom-[16px] 2xl:bottom-[19px] -translate-x-2 sm:-translate-x-4 scale-105 sm:scale-105 pointer-events-none' src={eu} alt="Victor Hugo" />
               <img className='absolute -right-10 sm:-right-12 2xl:-right-16 top-6 sm:top-12 size-28 sm:size-36 2xl:size-44 scale-75 sm:scale-100' src={DotsBr} alt="" />
               <img className='absolute -right-[75px] sm:-right-24 2xl:-right-28 top-12 sm:top-24 size-28 sm:size-36 2xl:size-44 scale-75 sm:scale-100' src={DotsAz} alt="" />
               <img className='absolute -left-10 sm:-left-12 2xl:-left-16 bottom-6 sm:bottom-12 size-28 sm:size-36 2xl:size-44 scale-75 sm:scale-100' src={DotsBr} alt="" />

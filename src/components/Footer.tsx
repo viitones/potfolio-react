@@ -2,7 +2,7 @@ import "./links.css"
 
 export function Footer (){
   return(
-    <footer className="bg-cinzaFooter dark:bg-neutral-900 p-20 mt-36 sm:mt-24 lg:mt-0">
+    <footer className="bg-cinzaFooter dark:bg-neutral-900 p-20 mt-30 sm:mt-24 lg:mt-0">
       <div className="max-w-7xl mx-auto flex flex-col gap-6 justify-center items-center">
         <h2 className="text-5xl font-bold text-center bg-gradient-to-l from-azul to-rosa bg-clip-text text-transparent text-shadow dark:shadow-neutral-900/10">Sobre Mim</h2>
         <h3 className="text-lg font-medium text-center text-cinzaApr dark:text-stone-200">Meu nome é Victor Hugo e sou um futuro Dev Full Stack</h3>
