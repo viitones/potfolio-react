@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'sans-serif']
+        custom: ['customFont', 'sans-serif']
       },
       colors: {
         azul: '#1d4ed8',

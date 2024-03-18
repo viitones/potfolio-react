@@ -10,7 +10,7 @@ export function Home (){
 
   return (
     <>
-      <section className="transition-colors duration-300 bg-white dark:bg-neutral-800 max-w-7xl mx-auto h-svh lg:h-[80vh] mt-8 sm:mt-16 lg:mt-44 2xl:mt-44">
+      <section className="transition-colors duration-300  max-w-7xl mx-auto h-svh lg:h-[80vh] mt-8 sm:mt-16 lg:mt-44 2xl:mt-44">
         <div className='flex flex-col items-center justify-center text-center lg:text-left 2xl:text-left lg:flex-row lg:justify-evenly '>
           <div className='flex flex-col items-center justify-center lg:justify-normal lg:items-start 2xl:justify-normal 2xl:items-start gap-8 mb-24'>
             <span className='max-w-max font-bold text-xs text-branco bg-gradient-to-l rounded px-1 py-[2px] from-azul to-rosa'>
