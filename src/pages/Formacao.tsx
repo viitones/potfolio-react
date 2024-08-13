@@ -8,8 +8,7 @@ import curriculo from "../download/Curriculo - Victor Hugo da Silva Martins.pdf"
 export function Formacao (){
   const formac = [
     {id: 1, data: "01/2022 - 06/2024", intituicao: "UNOPAR", curso: "Análise e Desenvolvimento de Sistemas", desc: "Curso voltado para a prática em programação; formação para atuar em diversas áreas como em desenvolvimento de software, análise de sistemas, gestão de projetos, entre outros, contribuindo para a criação e manutenção de soluções tecnológicas inovadoras."},
-    {id: 2, data: "10/2023 - 12/2023", intituicao: "DEVMEDIA", curso: "HTML5 e CSS3", desc: "Focado em adquirir compreensão das tags básicas para estruturação de conteúdo web e, entendimento em propriedades de estilo, seletores e layouts responsivos. Criação de páginas web semanticamente estruturadas, estilizadas de forma consistente e adaptáveis a diferentes dispositivos."},
-    {id: 3, data: "12/2023 - 01/2024",intituicao: "DEVMEDIA", curso: "Algoritmo", desc: "Um conhecimento básico em algoritmo, uso de Portugol e compreensão de lógica de programação além da capacidade de expressar soluções algorítmicas por meio de pseudocódigo. Habilidade de criar algoritmos simples, utilizar estruturas de controle de fluxo e entender conceitos fundamentais como variáveis, operadores e estruturas condicionais."},
+    {id: 2, data: "07/2024 - 07/2025", intituicao: "SIRIUS", curso: "MBA Full-Stack", desc: "Focado em dominar as tecnologias mais modernas e habilidades técnicas requisitadas pelo mercado, pronto(a) para desenvolver soluções completas e robustas para web e mobile de forma eficiente e criativa."},
   ]
   
   const skill = [
@@ -22,12 +21,12 @@ export function Formacao (){
   ]
 
   const prof = [
-    {id: 1, content: "HTML5"},
-    {id: 2, content: "CSS3"},
-    {id: 3, content: "JavaScript"},
-    {id: 4, content: "TypeScript (estudando)"},
-    {id: 5, content: "NodeJS (estudando)"},
-    {id: 6, content: "MySql (estudando)"},
+    {id: 1, content: "ReactJS"},
+    {id: 2, content: "NextJS"},
+    {id: 3, content: "TypeScript"},
+    {id: 4, content: "CSS 3"},
+    {id: 5, content: "NodeJS"},
+    {id: 6, content: "Postgres"},
   ]
 
   return (

@@ -12,8 +12,9 @@ import 'swiper/css/scrollbar';
 import { CardProjeto } from "../components/CardProjeto";
 import { FooterProjeto } from "../components/FooterProjeto";
 
-import clinica from "../assets/clinica.png"
-import agencia from "../assets/agencia.png"
+import todo from "../assets/todo.png"
+import ignite from "../assets/ignite.png"
+import notes from "../assets/notes.png"
 
 
 export function Projetos (){
@@ -37,23 +38,35 @@ export function Projetos (){
           <SwiperSlide >
             <div className='flex justify-center'>
             <CardProjeto nota={{
-              title:"Clínica Medic Life", 
-              paragraph:"A proposta desse projeto foi criar uma página web responsiva utilizando as tecnologias HTML e CSS, uso de tabelas informativas, navegação entre abas, flexbox e media queries.",
-              linka:"https://github.com/viitones/Medic-Life",
-              linkb:"https://medic-life.vercel.app/",
-              imagem: `${clinica}`,
-              alt: "Projeto da clínica Medic Life"}} />
+              title:"Notes", 
+              paragraph:"Notes uma aplicação Front-End web e mobile construída com tecnologias como react, TS e com a api de voz do navegador.",
+              linka:"https://github.com/viitones/Notes",
+              linkb:"https://notes-seven-ruby.vercel.app/",
+              imagem: `${notes}`,
+              alt: "Projeto TODO"}} />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide >
+            <div className='flex justify-center'>
+            <CardProjeto nota={{
+              title:"Todo List", 
+              paragraph:"Todo é uma aplicação Front-End web e mobile construída como forma de desafio proposto pela Rocketseat. A aplicação consiste basicamente em uma lista de tarefas simples onde você pode adicionar e remover tarefas a fazer e marca-las como concluídas..",
+              linka:"https://github.com/viitones/Todo-List",
+              linkb:"https://todo-list-five-delta-42.vercel.app/",
+              imagem: `${todo}`,
+              alt: "Projeto TODO"}} />
             </div>
           </SwiperSlide>
           
           <SwiperSlide >
             <CardProjeto nota={{
-              title:"Agência de Viagem", 
-              paragraph:"A proposta desse projeto foi criar o front-end de uma página web dinâmica utilizando conceitos de formulários para enviar dados do front-end para o back-end (disponibilizado pela plataforma).",
-              linka:"https://github.com/viitones/Agencia-de-viagem",
-              linkb:"https://agencia-de-viagem-blond.vercel.app/",
-              imagem: `${agencia}`,
-              alt: "Projeto agência de viagem"}} />
+              title:"Ignite Feed", 
+              paragraph:"Projeto de uma página inicial de uma rede social, podendo adicionar comentários e curtidas.",
+              linka:"https://github.com/viitones/ignite-feed_Teste",
+              linkb:"https://ignite-feed-teste.vercel.app/",
+              imagem: `${ignite}`,
+              alt: "Projeto Ignite Feed"}} />
           </SwiperSlide>      
                 
         </Swiper>
