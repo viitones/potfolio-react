@@ -25,8 +25,10 @@ export function Formacao (){
     {id: 2, content: "NextJS"},
     {id: 3, content: "TypeScript"},
     {id: 4, content: "CSS 3"},
-    {id: 5, content: "NodeJS"},
-    {id: 6, content: "Postgres"},
+    {id: 5, content: "Tailwind CSS"},
+    {id: 6, content: "Styled Components"},
+    {id: 7, content: "NodeJS"},
+    {id: 8, content: "Postgres"},
   ]
 
   return (
