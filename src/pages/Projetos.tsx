@@ -1,4 +1,4 @@
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { A11y, Navigation, Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,9 +12,10 @@ import 'swiper/css/scrollbar';
 import { CardProjeto } from "../components/CardProjeto";
 import { FooterProjeto } from "../components/FooterProjeto";
 
-import todo from "../assets/todo.png"
-import ignite from "../assets/ignite.png"
-import notes from "../assets/notes.png"
+import ignite from "../assets/ignite.png";
+import notes from "../assets/notes.png";
+import timer from "../assets/timer.png";
+import todo from "../assets/todo.png";
 
 
 export function Projetos (){
@@ -50,8 +51,20 @@ export function Projetos (){
           <SwiperSlide >
             <div className='flex justify-center'>
             <CardProjeto nota={{
+              title:"Ignite Time", 
+              paragraph:"Timer é uma aplicação feito para estudar, temporizador para marcar o tempo entre pausa entre estudos e descanso. Feito com React e TypeScript, além de libs como styled components, zod e immer.",
+              linka:"https://github.com/viitones/ignite_timer",
+              linkb:"refound-js-8yy5.vercel.app",
+              imagem: `${timer}`,
+              alt: "Projeto Ignite Timer"}} />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide >
+            <div className='flex justify-center'>
+            <CardProjeto nota={{
               title:"Todo List", 
-              paragraph:"Todo é uma aplicação Front-End web e mobile construída como forma de desafio proposto pela Rocketseat. A aplicação consiste basicamente em uma lista de tarefas simples onde você pode adicionar e remover tarefas a fazer e marca-las como concluídas..",
+              paragraph:"Todo é uma aplicação Front-End web e mobile construída como forma de desafio proposto pela Rocketseat. A aplicação consiste basicamente em uma lista de tarefas simples onde você pode adicionar e remover tarefas a fazer e marca-las como concluídas. Feito com React, Ts e local storage.",
               linka:"https://github.com/viitones/Todo-List",
               linkb:"https://todo-list-five-delta-42.vercel.app/",
               imagem: `${todo}`,
@@ -62,7 +75,7 @@ export function Projetos (){
           <SwiperSlide >
             <CardProjeto nota={{
               title:"Ignite Feed", 
-              paragraph:"Projeto de uma página inicial de uma rede social, podendo adicionar comentários e curtidas.",
+              paragraph:"Projeto de uma página inicial de uma rede social, podendo adicionar comentários e curtidas. React e TS.",
               linka:"https://github.com/viitones/ignite-feed_Teste",
               linkb:"https://ignite-feed-teste.vercel.app/",
               imagem: `${ignite}`,
