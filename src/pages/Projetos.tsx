@@ -54,7 +54,7 @@ export function Projetos (){
               title:"Ignite Time", 
               paragraph:"Timer é uma aplicação feito para estudar, temporizador para marcar o tempo entre pausa entre estudos e descanso. Feito com React e TypeScript, além de libs como styled components, zod e immer.",
               linka:"https://github.com/viitones/ignite_timer",
-              linkb:"refound-js-8yy5.vercel.app",
+              linkb:"https://refound-js-8yy5.vercel.app/",
               imagem: `${timer}`,
               alt: "Projeto Ignite Timer"}} />
             </div>
