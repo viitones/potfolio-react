@@ -31,7 +31,7 @@ export function Home (){
             </div>
           </div>
 
-          <div className='max-w-lg lg:ml-12'>
+          <div className='max-w-lg w-full flex items-center justify-center lg:ml-12'>
             <div className='relative bg-gradient-to-tl from-azul to-rosa size-[15rem] sm:size-[20rem] lg:size-[28rem] 2xl:size-[36rem] rounded-[40px] sm:rounded-[70px] '>
               <img className='absolute bottom-[8px] sm:bottom-[10px] lg:bottom-[16px] 2xl:bottom-[19px] -translate-x-2 sm:-translate-x-4 scale-105 sm:scale-105 pointer-events-none' src={eu} alt="Victor Hugo" />
               <img className='absolute -right-10 sm:-right-12 2xl:-right-16 top-6 sm:top-12 size-28 sm:size-36 2xl:size-44 scale-75 sm:scale-100' src={DotsBr} alt="" />
