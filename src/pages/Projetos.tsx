@@ -77,7 +77,7 @@ export function Projetos (){
               title:"Ignite Feed", 
               paragraph:"Projeto de uma página inicial de uma rede social, podendo adicionar comentários e curtidas. React e TS.",
               linka:"https://github.com/viitones/ignite-feed_Teste",
-              linkb:"https://ignite-feed-teste.vercel.app/",
+              linkb:"https://ignite-feed-ts-lake.vercel.app/",
               imagem: `${ignite}`,
               alt: "Projeto Ignite Feed"}} />
           </SwiperSlide>      
