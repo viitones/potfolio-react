@@ -24,12 +24,12 @@ export function Formacao (){
     {id: 1, content: "ReactJS"},
     {id: 2, content: "NextJS"},
     {id: 3, content: "TypeScript"},
-    {id: 4, content: "CSS 3"},
-    {id: 5, content: "Tailwind CSS"},
-    {id: 6, content: "Styled Components"},
-    {id: 7, content: "NodeJS"},
-    {id: 8, content: "Postgres"},
-  ]
+    {id: 4, content: "Tailwind CSS"},
+    {id: 5, content: "Styled Components"},
+    {id: 6, content: "NodeJS"},
+    {id: 7, content: "Postgres"},
+    {id: 8, content: "PHP"},
+    ]
 
   return (
     <section className="bg-cinzaFooter dark:bg-neutral-900">
@@ -74,7 +74,7 @@ export function Formacao (){
               
               <div className="flex items-center justify-center gap-2">
                 <Code className="size-9 p-1 rounded-lg text-white hidden md:inline-flex bg-gradient-to-l from-rosa to-azul" />
-                <h3 className="text-[2rem] text-center font-bold text-shadow shadow-zinc-500/20 bg-gradient-to-l from-rosa to-azul bg-clip-text text-transparent drop-shadow-md">Linguagens</h3>
+                <h3 className="text-[2rem] text-center font-bold text-shadow shadow-zinc-500/20 bg-gradient-to-l from-rosa to-azul bg-clip-text text-transparent drop-shadow-md">Tecnologias</h3>
               </div>
 
               <div className="flex flex-wrap items-center justify-center gap-5 mt-3">
